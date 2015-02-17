@@ -1,0 +1,79 @@
+body {
+	background-color: lightsalmon;
+}
+.logo {
+	margin: 0 auto;
+	margin-bottom: 100px;
+	width: 500px;
+	height: 244px;
+	background-image: url('../img/logo.png');
+}
+.menu {
+	width: 20%;
+	height: 50%;
+	position: fixed;
+	top: 25%;
+	text-align: center;
+	background-color: indianred;
+	border-radius: 0 40px 40px 0;
+	z-index: 999;
+}
+.item {
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 40%;
+	height: 40px;
+	border-radius: 25px;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	background-color: coral;
+}
+.search-item {
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom: 15%;
+	margin-right: -5%;
+	width: 60%;
+	height: 40px;
+	display: inline-block;
+	float: left;
+	border-radius: 40px;
+}
+.search-button {
+	margin-top: 10%;
+	margin-bottom: 15%;
+	margin-left: -2.5%;
+	width: 20%;
+	height: 40px;
+	border-radius: 50px;
+	line-height: 40px;
+	font-family: indie flower;
+	font-weight: bold;
+	font-size: 1.2em;
+	display: inline-block;
+	cursor: pointer;
+	background-color: darksalmon;
+}
+.done {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-top: 6px;
+	margin-left: 8%;
+	margin-right: -16%;
+	z-index: 999;
+}
+h1 {
+	text-align: center;
+	font-family: indie flower;
+	font-weight: bold;
+	font-size: 2em;
+}
+@media (max-width: 1150px) {
+	.menu {
+		height: 80%;
+		top: 10%;
+	}
+}
