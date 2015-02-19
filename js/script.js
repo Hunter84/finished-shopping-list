@@ -8,7 +8,11 @@ $(document).ready(function() {
 		$('.search-item').val("");
 	
 	});
-
+	$(document).keydown(function(event) {
+		if (event.which == 13) {
+			$('.search-button').click();
+		}
+	});
 	$("ul").on('change', 'input[type="checkbox"]', function() {
 
 	    if($(this).is(":checked")) {
@@ -21,6 +25,6 @@ $(document).ready(function() {
 	});
 
 	$('ul').on('click', 'li h1', function() {
-		$(this).parent().remove();	// study this more ...
+		$(this).parent().remove();
 	});
 });
